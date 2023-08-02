@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #8ca3c2;
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    place-items: center;
+}
+.card {
+    height: 590px;
+    width: 360px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+.nft {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+p {
+    margin-bottom: 1rem;
+}
+.infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+hr {
+    height: 1px;
+    background-color: #1e3048;
+    border: none;
+    margin-bottom: 1rem;
+}
+.credits {
+    display: flex;
+    gap: 1rem;
+}
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
